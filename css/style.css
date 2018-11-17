@@ -1,0 +1,229 @@
+html,body{
+      color: #fff;
+    }
+    .view{
+      height: 650px;
+    }
+    .btn{
+      margin-top: 22px;
+      color: #fff;
+      min-width: 168px;
+      border-radius:0;
+      font-size: 17px;
+      background-color: transparent;
+      border: 2px solid #fff;
+    }
+    .btn:hover{
+      background-color:#fff;
+      color: #222;
+
+    }
+    #intro{
+      height: 100%;
+      background: url(bridges.jpg) 80% 47%;
+      background-size: cover;
+    }
+    .intro-text{
+      margin-top: 200px;
+    }
+    .title2{
+      margin-top: 20px;
+      font-size: 42px;
+      font-weight: 600;
+    }
+    .title1{
+      font-size: 18px;
+    }
+    .main{
+      background: #000;
+      height: 540px;
+    }
+    .contant-main{
+      text-align: center;
+    }
+    .amazing_team{
+      padding-top: 50px;
+      font-size: 35px;
+      margin-bottom: 0;
+    }
+    .wonderful_text{
+      font-size: 13px;
+    }
+    .circle{
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .item{
+      margin-right: 30px;
+    }
+    .circle-items{
+      height: 150px;
+
+      width: 150px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+    }
+    .icon_items{
+      background-color: #fff;
+      margin-right:5px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+    }
+    .name_prof{
+      margin-top: 10px;
+      text-align: center;
+    }
+    .prof{
+      color: #afa9a9;
+      font-size: 13px;
+    }
+    .name{
+      font-weight: 600;
+      font-size: 15px;
+      margin-bottom: 0;
+    }
+    .icon{
+      justify-content: center;
+    }
+     .icon_items img{
+    background-image: #fff;
+    margin-left: -3px;
+    margin-top: -3px;
+    height: 30px;
+    width: 30px;
+    }
+    .text_main_futer{
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 15px;
+      margin-top: 25px;
+      text-align: center;
+    }
+    footer{
+      height: 500px;
+      background: #85a0cd;
+    }
+    .Fut_text{
+      margin-top: 50px;
+    }
+    .S-H{
+      font-size: 40px;
+    }
+    .Tt_text{
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    .Fut_form{
+      margin-top: 55px;
+    }
+    .r_text{
+      margin-top: 45px;
+    }
+    .r_text_i{
+      margin-bottom: 40px;
+      font-size: 18px;
+    }
+    .r_text_i img{
+      height: 30px;
+      width: 30px;
+    }
+    input{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .Inp_text{
+      font-size: 18px;
+      padding: 22px 15px;
+    }
+    textarea{
+      width: 100%;
+    }
+    .Textar_text{
+      font-size: 18px;
+    }
+    @media (max-width: 769px) {
+      .r_text_i {
+          margin-bottom: 30px;
+          font-size: 12px;
+      }
+      .r_text_i img {
+          height: 18px;
+          width: 18px;
+      }
+      footer {
+        height: 460px;
+      }
+      .Tt_text {
+        font-size: 16px;
+      }
+     }
+     @media (max-width: 575.98px) {
+       .amazing_team {
+        padding-top: 30px;
+        font-size: 28px;
+      }
+      .intro-text {
+        margin-top: 100px;
+        margin-bottom: 80px;
+      }
+      .view {
+        height: 80%;
+      }
+      .circle-items {
+        margin-left: auto;
+        margin-right: auto;
+        height: 120px;
+        width: 120px;
+      }
+      .r_text {
+        text-align: center;
+        margin-top: 15px;
+      }
+      .Tt_text {
+        text-align: center;
+          font-size: 14px;
+      }
+      .main {
+        background: #000;
+        height: 950px;;
+      }
+      .circle {
+        display: block;
+        margin-top: 20px;
+      }
+      .item {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+      .text_main_futer {
+        margin-top: 20px;
+      }
+      .Fut_form {
+        margin-top: 0;
+      }
+      .Fut_text {
+        margin-top: 20px;
+      }
+      footer {
+        height: 830px;
+      }
+      .Inp_text {
+        font-size: 14px;
+      }
+      .Textar_text {
+        font-size: 14px;
+      }
+      .S-H {
+        text-align: center;
+      }
+      .row {
+      margin-right: 0;
+      margin-left: 0;
+      }
+      .text_main_futer{
+        width: 100%;        
+      }
+      }
